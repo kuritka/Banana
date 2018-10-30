@@ -1,0 +1,10 @@
+{
+  "Host": "127.0.0.1:22",
+  "User": "ec2-user",
+  "PrivateKeyFile": "./key.private",
+  "SrcPath" : "/home/ec2-user/",
+  "DstPath" : "/opt/edt/sftp",
+  "FileMask" : "pp_*_*.zip",
+  "ApiGatewayHost" : "localhost:8000",
+  "Cron" : "*/1 * * * *"
+}

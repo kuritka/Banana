@@ -1,0 +1,12 @@
+{
+  "Type": "sftp",
+  "Host": "127.0.0.1:22",
+  "User": "edt",
+  "PrivateKeyFile": "./key.private",
+  "SrcPath" : "/home/ec2-user/",
+  "DstPath" : "~/test/out/",
+  "FileMask" : "KV*_T_EDT_*.zip",
+  "ZeroLenFileSuffix": "_0",
+  "ApiGatewayHost" : "http://localhost:8000/upload",
+  "Cron" : "*/10 * * * *"
+}
